@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+    width:250px;
+    position:fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    padding:20px 0; 
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 15px;
+  }
+li {
+    padding-bottom: 20px;
+}
+  a:hover {
+    color: rgb(94, 100, 99);
+  }
+
+
+.nav-bar{
+    list-style-type: none;
+    color: white;
+    font-family: 'Prompt';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.search-icon{
+    width: 25px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+    
+}
+.icon.search-icon{
+    margin-bottom: -13px;
+}
+.spotify-logo{
+    width: 140px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
